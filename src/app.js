@@ -12,7 +12,11 @@ const favouritesRoutes = require('./routes/favouritesRoutes');
 const app = express();
 
 // Middleware
-app.use(cors({}));
+const corsOptions = {
+  origin: true,
+  credentials: true,
+};
+app.use(cors(corsOptions));
 app.use(helmet()); // Add security headers
 app.use(morgan('dev')); // Log HTTP requests
 app.use(express.json()); // Parse JSON request bodies
