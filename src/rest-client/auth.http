@@ -1,0 +1,53 @@
+@user_token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3YzlmZDBjNDBiYzljOTEwMjU1YjI0OCIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQyNjAwNjEyLCJleHAiOjE3NDI2ODcwMTJ9.M0p0FX1Hyg7XO_yLZ-MH0-m8-zZyKHK9_bur7kRWbA0
+
+### register
+POST http://127.0.0.1:3000/api/auth/register
+Content-Type: application/json
+
+{
+  "email": "gamithf@gmail.com",
+  "password": "gamithf",
+  "name": "gamithf",
+  "role": "user"
+}
+
+### login
+POST http://127.0.0.1:3000/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "gamithf@gmail.com",
+  "password": "gamithf"
+}
+
+### verify-otp
+POST http://127.0.0.1:3000/api/auth/verify-otp
+Content-Type: application/json
+
+{
+  "id": "67ce5919ae81158d6eb660b8",
+  "otp": "3662"
+}
+
+
+###
+GET http://127.0.0.1:3000/api/favourites/get-favourites
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MTYyMTgxNDk4NjZiZWEyZTg4Njg5ZCIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ2Mjg4NzAxLCJleHAiOjE3NDYzNzUxMDF9.k7zeLIjbo3nqGpgaBqveljJzlAQIvHByCSD9dVAPuPY
+
+###
+POST http://127.0.0.1:3000/api/favourites/add-favourites
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MTYyMTgxNDk4NjZiZWEyZTg4Njg5ZCIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ2Mjg4NzAxLCJleHAiOjE3NDYzNzUxMDF9.k7zeLIjbo3nqGpgaBqveljJzlAQIvHByCSD9dVAPuPY
+Content-Type: application/json
+
+{
+  "countryCode": "170"
+}
+
+###
+DELETE http://127.0.0.1:3000/api/favourites/delete-favourites
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MTYyMTgxNDk4NjZiZWEyZTg4Njg5ZCIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ2Mjg4NzAxLCJleHAiOjE3NDYzNzUxMDF9.k7zeLIjbo3nqGpgaBqveljJzlAQIvHByCSD9dVAPuPY
+Content-Type: application/json
+
+{
+  "countryCode": "170"
+}

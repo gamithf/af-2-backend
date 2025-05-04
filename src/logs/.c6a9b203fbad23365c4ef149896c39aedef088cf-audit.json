@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "C:\\Users\\Chamal\\Desktop\\af-2-backend\\src\\logs\\.c6a9b203fbad23365c4ef149896c39aedef088cf-audit.json",
+    "files": [
+        {
+            "date": 1746280348125,
+            "name": "C:\\Users\\Chamal\\Desktop\\af-2-backend\\src\\logs\\error-2025-05-03.log",
+            "hash": "87fb6004476c063d019b2f14b2f69a657039fd940cf5e81f0f8c6ba1ef0093bc"
+        },
+        {
+            "date": 1746300531917,
+            "name": "C:\\Users\\Chamal\\Desktop\\af-2-backend\\src\\logs\\error-2025-05-04.log",
+            "hash": "0c6fa9efa54d97ec465099ed107c5776819ba1107cb26106658d1d7b1696feb2"
+        }
+    ],
+    "hashType": "sha256"
+}

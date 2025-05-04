@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "C:\\Users\\Chamal\\Desktop\\AF\\project-gamithf\\src\\logs\\.1ee9fafdad5f1fcdaa429575b1c86c5bbe67d4f9-audit.json",
+    "files": [
+        {
+            "date": 1742627106787,
+            "name": "C:\\Users\\Chamal\\Desktop\\AF\\project-gamithf\\src\\logs\\error-2025-03-22.log",
+            "hash": "ed5d96dface72c386c6f08046864ff73bcaebf9305f21675ce6990f068b8f6e3"
+        }
+    ],
+    "hashType": "sha256"
+}
